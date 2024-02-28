@@ -222,3 +222,5 @@ playersDropdownList.addEventListener("change", (e) => {
             setPlayerCards();
     }
 });
+
+addEventListener("load", (e) => setPlayerCards());
